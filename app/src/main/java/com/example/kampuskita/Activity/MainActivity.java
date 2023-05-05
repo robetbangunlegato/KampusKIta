@@ -1,8 +1,10 @@
-package com.example.kampuskita;
+package com.example.kampuskita.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.kampuskita.R;
 
 public class MainActivity extends AppCompatActivity {
 
