@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -12,7 +13,7 @@
         android:theme="@style/Theme.KampusKita"
         tools:targetApi="31">
         <activity
-            android:name=".UbahActivity"
+            android:name=".Activity.UbahActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.MainActivity"
@@ -23,6 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activity.TambahActivity"
+            android:exported="true"
+            />
     </application>
 
 </manifest>

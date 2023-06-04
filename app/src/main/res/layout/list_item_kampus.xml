@@ -39,6 +39,34 @@
             android:textStyle="bold"
             android:justificationMode="inter_word"/>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            >
+
+            <Button
+                android:id="@+id/btn_ubah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubah"
+                android:drawableLeft="@drawable/ic_ubah"
+                android:layout_weight="1"
+                android:layout_marginRight="2dp"
+                />
+
+            <Button
+                android:id="@+id/btn_hapus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hapus"
+                android:drawableLeft="@drawable/ic_hapus"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                />
+
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
